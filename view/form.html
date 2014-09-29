@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title>我的审批</title>
+	    <link rel="stylesheet" type="text/css" href="../css/appstyles.css">
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/iscroll.js"></script>
+		<script type="text/javascript" src="../js/lAapp.js"></script>
+	</head>
+	<body>
+		<div class="view">
+			<!--header begin-->
+			<header class="header clearfix">
+				<div class="TopL"><span class="BtnIcon Back"></span></div>
+				<div class="TopM aligncenter"><span class="font17">Ray的出差申请</span></div>
+				<div class="TopR" id="Search"><span class="BtnIcon pencil current"></span></div>
+			</header>
+			<!--header over-->
+			<section class="form-top sidebar">
+				<ul>
+					<li class="userimg clearfix">
+						<span class="userimg"><img src="../img/cdm.jpg"></span>
+						<p class="font14"><em class="color-3"></em>王振佳</p>
+						<p>申请编号：<span>BT-2014-0006</span></p>
+						<p>申请日期：<span>2014-6-16</span></p>
+					</li>
+				</ul>
+			</section>
+			<!--安卓审批菜单begin-->
+			<div class="BottomRbox android-bar current" style="display:block;">
+				<div class="BottomIn">
+					<table>
+						<tr>
+							<td><div class="btn btn1 current"><i class="BtnIcon Icon-ok"></i><span>通过</span></div></td>
+							<td><div class="btn btn2"><i class="BtnIcon Icon-no"></i><span>否决</span></div></td>
+							<td><div class="btn btn3"><i class="BtnIcon Icon-return"></i><span>回退</span></div></td>
+							<td><div class="btn btn4"><i class="BtnIcon Icon-turn"></i><span>转审</span></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<!--安卓审批菜单over-->
+			<table class="nav">
+				<tr>
+					<td class="current"><span>申请内容</span></td>
+					<td><span>审批详情</span></td>
+				</tr>
+			</table>
+			<div class="form-view android-view" id="wrapper">
+				<div class="content" id="scroller" style="width:400%;">
+					<!--form begin-->
+					<div class="formOut floatleft" style="width:320px;">
+						<section class="form">
+							<table>
+								<tr>
+									<th>申请编号 :</th>
+									<td>BT-2014-0006</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<th>申请部门 :</th>
+									<td>产品设计部</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<th>申请日期 :</th>
+									<td>2014-6-16</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<th>出差地点 :</th>
+									<td>夏威夷</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<th>出差日期 :</th>
+									<td>2014-7-1 至 2014-8-1</td>
+								</tr>
+							</table>
+							<table class="Important">
+								<tr>
+									<th>出差事由 :</th>
+									<td>为了防止世界被破坏，为了守护世界和平!</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<th>备注 :</th>
+									<td>为了防止世界被破坏，为了守护世界和平!</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<th>附件 :</th>
+									<td><span class="color-cb"><i class="BtnIcon Icon-neex"></i>点击查看</span></td>
+								</tr>
+							</table>
+						</section>
+						<section class="form">
+								<header class="clearfix">
+									<span class="color-6 marl10">审批流程</span>
+								</header>
+								<table>
+									<tr>
+										<th width="30%">Ray.Zhang</th>
+										<td width="30%">进行审批</td>
+										<td width="40%">2014-02-17 09:35</td>
+									</tr>
+									<tr>
+										<td colspan="3">
+											<div class="message">
+												<i class="Icon ico-arrow"></i>
+												<p>转审意见转审意见转审意见转审意见转审意转审意见转审意见转审意见转审意见转审意转审意见转审意见转审意见转审意见转审意</p>
+											</div>
+										</td>
+									</tr>
+								</table>
+								<table class="mart5">
+									<tr>
+										<th width="25%">刘德华</th>
+										<td width="20%">进行审批</td>
+										<td width="50%">2014-02-17 09:35</td>
+									</tr>
+									<tr>
+										<th width="25%">Ray.Zhang</th>
+										<td>进行审批</td>
+										<td>2014-02-17 09:35</td>
+									</tr>
+								</table>
+								<table class="mart5 nowstep">
+									<tr>
+										<th width="25%">Ray.Zhang</th>
+										<td width="20%">进行审批</td>
+										<td width="50%">2014-02-17 09:35</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td colspan="2">继续努力继续努力继续努力继续努力继续努力继续努力</td>
+									</tr>
+								</table>
+							</section>
+					</div>
+					<!--form over-->
+				</div>
+			</div>
+			<!--右侧扇形菜单 begin-->
+			<div class="BottomRbox" style="display:block;">
+				<div class="BottomIn">
+					<table>
+						<tr>
+							<td><div class="btn btn1 current"><i class="BtnIcon Icon-ok"></i><span>通过</span></div></td>
+							<td><div class="btn btn2"><i class="BtnIcon Icon-no"></i><span>否决</span></div></td>
+							<td><div class="btn btn3"><i class="BtnIcon Icon-return"></i><span>回退</span></div></td>
+							<td><div class="btn btn4"><i class="BtnIcon Icon-turn"></i><span>转审</span></div></td>
+						</tr>
+						<tr><td colspan="4"><div class="btn btn5"><i class="BtnIcon Icon-down"></i></div></td></tr>
+					</table>
+				</div>
+			</div>
+			<!--右侧扇形菜单 over-->
+			<!--底部半圆按钮begin-->
+			<div class="BottomBtn current"></div>
+			<!--底部半圆按钮over-->
+		</div>
+		<div class="mask" style="opacity:0.7;display:none;"></div>
+		<div class="maskOver help-mask" style="display:none;">
+			<div class="help-box">
+				<table>
+					<tr><td><p class="aligncenter p-top20"><img src="../img/help.png" width="21"></p></td></tr>
+					<tr>
+						<td>
+							<p class="aligncenter font13">试试长按卡片，</p>
+							<p class="aligncenter font13">可调出操作按钮哦！</p>
+						</td>
+					</tr>
+				</table>
+				
+				
+			</div>
+			<span class="nextstep aligncenter font12 mart15">我知道了</span>
+		</div>
+	</body>
+</html>
