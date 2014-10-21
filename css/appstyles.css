@@ -147,7 +147,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .header-top .ico-set{position:absolute;top:10px;right:15px;}
 .view,.mask{width:100%;height:100%;position:relative;}
 .view{background:#f8f6f7;}
-.mask,.maskOver{background-color:#000;opacity:0;position:fixed;top:0;left:0;z-index:200;display:none;}
+.mask,.maskOver{background-color:#000;opacity:0.5;position:fixed;top:0;left:0;z-index:300;display:none;}
 .maskOver{width:100%;height:100%;z-index:200;}
 .maskOverbg{background:0;opacity:1;overflow:hidden;}
 .help-mask{opacity:1;background:none;}
@@ -156,7 +156,8 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .help-box table{width:100%;height:100%;color:#fff;}
 .Icon-name,.Icon-password{width:14px;height:14px;background:url(../img/user_name.png) no-repeat;background-size:14px;position:absolute;top:10px;left:5px;}
 .Icon-password{background-image:url(../img/password_ico.png);top:11px;}
-.maskIN{width:100%;height:100%;position:absolute;top:49px;background:url(../img/bgre.jpg) repeat;background-size:20px;padding-top:150px;}
+.maskIN{width:130px;height:40px;line-height:40px;background:#000;opacity:0.7;text-align:center;color:#fff;position:absolute;top:50%;left:50%;margin: 0px 0 0 -65px;border-radius:4px;}
+.maskIN img{vertical-align:-3px;margin-right:5px;}
 .header{width:100%;height:44px;background:#2d3039;position:absolute;top:0;left:0;color: #fff;z-index:100;overflow:hidden;}
 .TopL,.TopR,.TopM{width:15%;height:100%;float: left;}
 .TopL{width:13%;}
