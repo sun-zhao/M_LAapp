@@ -10,7 +10,7 @@
 		<script type="text/javascript" src="../js/lAapp.js"></script>
 	</head>
 	<body>
-		<div class="maskOver maskOverbg" style="display:block;">
+		<div class="maskOver maskOverbg" style="display:none;">
 			<div class="maskIN">
 				<p><img src="../img/loading.gif">正在加载...</p>
 			</div>
@@ -35,7 +35,7 @@
 				</ul>
 			</section>
 			<!--安卓审批菜单begin-->
-			<div class="BottomRbox android-bar current" style="display:block;">
+			<div class="BottomRbox android-bar current" style="display:none;">
 				<div class="BottomIn">
 					<table>
 						<tr>
@@ -54,7 +54,7 @@
 					<td><span>审批详情</span></td>
 				</tr>
 			</table>
-			<div class="form-view android-view" id="wrapper">
+			<div class="form-view" id="wrapper"><!--去掉android-view-->
 				<div class="content" id="scroller" style="width:400%;">
 					<!--form begin-->
 					<div class="formOut floatleft" style="width:320px;">
@@ -171,7 +171,7 @@
 			</div>
 			<!--右侧扇形菜单 over-->
 			<!--底部半圆按钮begin-->
-			<div class="BottomBtn current"></div>
+			<div class="BottomBtn "></div><!--加current消失-->
 			<!--底部半圆按钮over-->
 		</div>
 		<div class="mask" style="opacity:0.7;display:none;"></div>
