@@ -386,8 +386,8 @@ ul.contactBox li.word-title{background: none;border:0;padding-left: 10px;}
 .BottomRboxL .btn:active .Icon-no,.BottomRboxL.current .btn .Icon-no{width:14px;height:14px;background-image: url(../img/ico-fj.png);background-size:14px;}
 .BottomRboxL .btn:active .Icon-return,.BottomRboxL .btn.current .Icon-return{width:18px;height:11.5px;background-image: url(../img/ico-ht.png);background-size:18px;}
 .BottomRboxL .btn:active .Icon-turn,.BottomRboxL .btn.current .Icon-turn{width:17px;height:12px;background-image: url(../img/ico-zs.png);background-size:17px;}
-
-
+.word_current{width:36px;height:36px;background:#000;opacity: 0.3;border:1px solid #9a9a9a;border-radius:5px;-webkit-border-radius:5px;position: absolute;top:50%;margin-top:-18px;right:20px;line-height:36px;text-align: center;color: #fff;font-size:1.6rem;}
+.word_current img{width:20px;position: relative;top:4px;}
 
 
 
